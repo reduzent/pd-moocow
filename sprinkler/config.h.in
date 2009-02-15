@@ -1,16 +1,10 @@
-/* src/config.h.in.  Generated from configure.ac by autoheader.  */
+/* config.h.in.  Generated from configure.ac by autoheader.  */
 
-/* Define to 1 if you have the <dirent.h> header file. */
-#undef HAVE_DIRENT_H
+/* Define this to use pd_forwardmess() for all messages */
+#undef ALL_FORWARDMESS
 
-/* Define to 1 if you have the <errno.h> header file. */
-#undef HAVE_ERRNO_H
-
-/* Define to 1 if you have the <fcntl.h> header file. */
-#undef HAVE_FCNTL_H
-
-/* Define to 1 if you have the <string.h> header file. */
-#undef HAVE_STRING_H
+/* Define this to enable MAX-incompatible "forward" alias */
+#undef NON_MAX_FORWARD
 
 /* Name of package */
 #undef PACKAGE
@@ -37,7 +31,7 @@
 #undef PACKAGE_VERSION
 
 /* Define this to include debugging code for the 'readdir' external. */
-#undef READDIR_DEBUG
+#undef SPRINKLER_DEBUG
 
 /* Version number of package */
 #undef VERSION
