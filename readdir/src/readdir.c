@@ -52,14 +52,15 @@
 static char readdir_errbuf[EBUFSIZE];
 #endif
 
+
 /*=====================================================================
  * Structures and Types
  *=====================================================================*/
 
 static char *readdir_banner =
   "\n"
-  "readdir: simple directory accessor v" PACKAGE_VERSION " by Bryan Jurish\n"
-  "readdir: compiled by " PACKAGE_BUILD_USER " on " PACKAGE_BUILD_DATE ;
+  "readdir: simple directory accessor v" "0.02" " by Bryan Jurish\n"
+  "readdir: compiled by " "rdz" " on " "2015-11-16" ;
 
 static t_class *readdir_class;
 
