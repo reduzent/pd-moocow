@@ -1,0 +1,8 @@
+#N canvas 18 240 200 200 10;
+#N canvas 28 50 380 233 META 0;
+#X text 13 11 NAME readdir;
+#X text 14 46 VERSION 0.03;
+#X text 11 66 AUTHOR Bryan Jurish;
+#X text 10 90 LICENSE GPL-2;
+#X text 12 28 DESCRIPTION read contents of a directory;
+#X restore 10 10 pd META;
