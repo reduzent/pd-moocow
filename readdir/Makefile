@@ -4,7 +4,7 @@ lib.name = readdir
 
 class.sources = src/readdir.c
 
-datafiles = src/readdir-help.pd
+datafiles = src/readdir-help.pd readdir-meta.pd LICENSE.txt README.txt
 
 # This Makefile is based on the Makefile from pd-lib-builder written by
 # Katja Vetter. You can get it from:
