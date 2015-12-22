@@ -10,4 +10,4 @@ datafiles = src/readdir-help.pd readdir-meta.pd LICENSE.txt README.txt
 # Katja Vetter. You can get it from:
 # https://github.com/pure-data/pd-lib-builder
 
-include ../../pd-lib-builder/Makefile.pdlibbuilder
+include ../pd-lib-builder/Makefile.pdlibbuilder
